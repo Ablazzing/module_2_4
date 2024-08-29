@@ -24,5 +24,6 @@ public class Runner {
         Phone phone1 = phoneShop2.sell(2000);
         phone1.call();
 
+        ProductShopGeneric<Product> productProductShopGeneric = new ProductShopGeneric<>();
     }
 }
