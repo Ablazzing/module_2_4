@@ -1,6 +1,5 @@
 package org.javaacademy.lesson3.ex2;
 
-import java.util.LinkedList;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class Runner {

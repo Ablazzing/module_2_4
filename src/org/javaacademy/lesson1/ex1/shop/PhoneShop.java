@@ -1,8 +1,6 @@
 package org.javaacademy.lesson1.ex1.shop;
 
 
-import org.javaacademy.lesson1.ex1.product.Phone;
-
 public class PhoneShop extends ProductShop {
 //    private Phone phone;
 //
