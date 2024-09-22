@@ -1,8 +1,5 @@
 package org.javaacademy.homework.homework3;
 
-import java.util.Comparator;
-import java.util.TreeSet;
-
 public class Runner {
     public static void main(String[] args) {
         //Задание №1: Сад
@@ -40,7 +37,7 @@ public class Runner {
 
         //Задание №5: сортировка отзывов
         //Создать класс отзыв с полями: id отзыва, текст отзыва, количество лайков,
-        // дата + время отзыва (LocalDateTime)  - НЕ ИСПОЛЬЗОВАТЬ COMPARABLE!
+        // дата + время отзыва (LocalDateTime) - НЕ ИСПОЛЬЗОВАТЬ COMPARABLE!
         //Создать коллекцию, которая хранит отсортированные отзывы по:
         // 1.лайкам
         // 2.(Если лайки совпадают) дата + время отзыва
@@ -55,7 +52,6 @@ public class Runner {
         //отзыв №2: 2, так себе товар, 100, 25.01.2024 16:37
         //отзыв №4: 4, плохой товар, 100, 25.01.2024 13:37
         //отзыв №3: 3, плохой товар, 100, 25.01.2024 13:37
-        Comparator<Double> doubleComparator = (a, b) -> a.compareTo(b);
 
 
     }
