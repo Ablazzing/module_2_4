@@ -1,8 +1,6 @@
 package org.javaacademy.lesson9.ex5;
 
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.TreeMap;
 
 public class Runner {

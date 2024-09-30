@@ -5,8 +5,6 @@ import org.javaacademy.homework.homework1.animal.Dog;
 import org.javaacademy.homework.homework1.animal.Tiger;
 
 import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 

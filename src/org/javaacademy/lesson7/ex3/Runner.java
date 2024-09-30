@@ -1,7 +1,6 @@
 package org.javaacademy.lesson7.ex3;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

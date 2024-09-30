@@ -1,7 +1,6 @@
 package org.javaacademy.lesson8.ex1;
 
 import java.util.List;
-import java.util.stream.Stream;
 
 public class Runner {
     public static void main(String[] args) {

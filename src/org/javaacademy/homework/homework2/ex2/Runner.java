@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 import static org.javaacademy.homework.homework2.ex1.LuggageUtil.readLineAndDeserializeLuggage;
 import static org.javaacademy.homework.homework2.ex1.LuggageUtil.skipFirstLineFromFile;
-import static org.javaacademy.homework.homework2.ex2.LuggageCategory.*;
+import static org.javaacademy.homework.homework2.ex2.LuggageCategory.values;
 
 public class Runner {
     public static void main(String[] args) {
