@@ -10,7 +10,7 @@ public class Shop {
     }
 
     public void addProduct(String product, Integer countProduct) {
-        products.put(product, products.getOrDefault( product, 0) + countProduct);
+        products.put(product, products.getOrDefault(product, 0) + countProduct);
     }
 
     @Override

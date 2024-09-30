@@ -2,7 +2,7 @@ package org.javaacademy.lesson1.ex1.shop;
 
 import org.javaacademy.lesson1.ex1.product.Product;
 
-public class ProductShopGeneric <T extends Product> {
+public class ProductShopGeneric<T extends Product> {
     private T product;
 
     /**

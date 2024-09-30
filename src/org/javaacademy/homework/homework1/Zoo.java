@@ -5,7 +5,7 @@ import org.javaacademy.homework.homework1.animal.Bird;
 import org.javaacademy.homework.homework1.animal.Dog;
 import org.javaacademy.homework.homework1.animal.Tiger;
 
-public class Zoo <A1 extends Animal, A2 extends Animal, A3 extends  Animal> {
+public class Zoo<A1 extends Animal, A2 extends Animal, A3 extends  Animal> {
     private A1 animal1;
     private A2 animal2;
     private A3 animal3;

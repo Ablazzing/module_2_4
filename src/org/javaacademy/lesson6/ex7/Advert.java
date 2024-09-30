@@ -6,8 +6,8 @@ import java.math.BigDecimal;
  * Объявление
  */
 public class Advert {
-   private String text;
-   private BigDecimal price;
+    private final String text;
+    private final BigDecimal price;
 
     public Advert(String text, BigDecimal price) {
         this.text = text;

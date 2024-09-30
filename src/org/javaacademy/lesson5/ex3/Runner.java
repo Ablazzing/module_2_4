@@ -22,7 +22,7 @@ public class Runner {
         System.out.println(humans); // Без сортировки
         TreeSet<Integer> treeSet = new TreeSet<>(humans);
         System.out.println(treeSet); //После сортировки (по возрастанию)
-        System.out.println(treeSet.descendingSet());//Сортировка по убыванию
+        System.out.println(treeSet.descendingSet()); //Сортировка по убыванию
 
         //Сортировка студентов
         TreeSet<Student> students = new TreeSet<>(

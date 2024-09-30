@@ -1,6 +1,6 @@
 package org.javaacademy.lesson1.ex3;
 
-public class Container <T> {
+public class Container<T> {
     private T value1;
     private T value2;
     private T value3;

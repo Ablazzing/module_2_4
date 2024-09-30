@@ -14,7 +14,7 @@ public class Animal {
             System.out.println("Животное бежит");
         }
 
-    };
+    }
 
     public void breathe() {
         System.out.println("Животное дышит");

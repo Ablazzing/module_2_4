@@ -1,6 +1,6 @@
 package org.javaacademy.lesson5.ex3;
 
-public class Student implements Comparable<Student>{
+public class Student implements Comparable<Student> {
     private int height;
 
     public Student(int height) {

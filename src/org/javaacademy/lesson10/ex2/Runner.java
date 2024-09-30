@@ -6,7 +6,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class Runner {
-    public static void main(String[] args) throws IllegalAccessException, NoSuchFieldException, InvocationTargetException, NoSuchMethodException, InstantiationException {
+    public static void main(String[] args)
+            throws IllegalAccessException, NoSuchFieldException, InvocationTargetException,
+            NoSuchMethodException, InstantiationException {
         //Cat cat = new Cat("Барсик");
         Cat cat = createCat("Барсик");
         printName(cat);
@@ -19,7 +21,8 @@ public class Runner {
 //        System.out.println(byteValue);
     }
 
-    private static Cat createCat(String name) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+    private static Cat createCat(String name) throws NoSuchMethodException,
+            InvocationTargetException, InstantiationException, IllegalAccessException {
         Class<Cat> catClass = Cat.class;
         Constructor<Cat> catConstructor = catClass.getDeclaredConstructor(String.class);
         catConstructor.setAccessible(true);
@@ -27,7 +30,8 @@ public class Runner {
         return cat;
     }
 
-    private static void sayMay(Cat cat) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+    private static void sayMay(Cat cat) throws NoSuchMethodException,
+            InvocationTargetException, IllegalAccessException {
         Class<Cat> catClass = Cat.class;
         Method methodSay = catClass.getDeclaredMethod("say");
         methodSay.setAccessible(true);

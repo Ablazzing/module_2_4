@@ -5,7 +5,8 @@ import java.util.TreeMap;
 
 public class Runner {
     public static void main(String[] args) {
-        TreeMap<String, Integer> map = new TreeMap<>(Comparator.comparingInt(String::length).thenComparing(String::hashCode));
+        TreeMap<String, Integer> map = new TreeMap<>(Comparator.comparingInt(String::length)
+                .thenComparing(String::hashCode));
         Shop shop = new Shop(map);
         shop.addProduct("яблоки", 10);
         shop.addProduct("яблоки", 20);
